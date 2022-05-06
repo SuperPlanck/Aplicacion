@@ -19,7 +19,7 @@ st.subheader('Introducción')
 st.markdown('**¿Qué es la luz?**')
 st.markdown('Una pregunta que los seres humanos han tratado de responder durante siglos.')
 
-ol1, col2, col3 = st.beta_columns([1,6,1])
+ol1, col2, col3 = st.columns([1,6,1])
 
 with col1:
     st.write("")
