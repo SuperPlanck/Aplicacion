@@ -1,24 +1,15 @@
 import pandas as pd
 import streamlit as st
 import numpy as np
-if t:
-    st.markdown(
-        """
-        <style>
-@font-face {
-  font-family: 'Tangerine';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/tangerine/v12/IurY6Y5j_oScZZow4VOxCZZM.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-    html, body, [class*="css"]  {
-    font-family: 'Tangerine';
-    font-size: 48px;
-    }
-    </style>
+filename = "cat.png"
+img = cv2.imread(filename, 1)
+image = np.array([img])
 
-    """,
-        unsafe_allow_html=True,
-    )
+original_title = '<p style="font-family:Courier; color:Blue; font-size: 20px;">Original image</p>'
+st.markdown(original_title, unsafe_allow_html=True)
+st.image(image, channels="BGR")
+
+new_title = '<p style="font-family:sans-serif; color:Green; font-size: 42px;">New image</p>'
+st.markdown(new_title, unsafe_allow_html=True)
+st.image(image, channels="BGR")
 st.title("Óptica Cuántica")
