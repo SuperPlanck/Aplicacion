@@ -16,4 +16,4 @@ with st.sidebar:
         "Temas")
 
 st.subheader('Introducción')
-st.text('**¿Qué es la luz?**')
+st.markdown('**¿Qué es la luz?**')
