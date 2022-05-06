@@ -26,7 +26,7 @@ with st.sidebar:
     t("Experimento de la doble rendija"): Rendija.Rendija_page,
     t("Difraccion"): Difraccion.Difraccion_page,
     t("Reflexion"): Reflexion.Reflexion_page,
-    t("Refraccion"): Refraccion.Refraccion_page,    
+    t("Refraccion"): Refraccion.Refraccion_page,  }   
 
 st.subheader('Introducción')
 st.markdown('**¿Qué es la luz?**')
