@@ -64,3 +64,5 @@ with col3:
     st.write("")
 
 st.markdown("Las ondas electromagnéticas pueden ser clasificadas por lu longitud de onda o su frecuencia; esta clasificación se llama **Espectro electromagnético**")
+
+longitud = st.slider('Longitud de onda visible en nm',380,750,380)
