@@ -34,7 +34,6 @@ st.markdown('Newton, principal aportador de la teoria de la luz estipulaba que l
 st.markdown('Esta idea le permitió justificar las bases de la refracción y reflexión')
 st.markdown('Durante su vida sostuvó que la luz podría seguir un movimiento ondulatorio lo cual fue demostrado por Thomas Young, que bajo condiciones de difracción los rayos de luz interfieren unos con otros al igual que con las ondas mecánicas')
 
-st.markdown("![Alt Text](http://blog.soton.ac.uk/soundwaves/files/2013/12/light1.gif)")
 col1, col2, col3 = st.columns([1,6,1])
 
 with col1:
