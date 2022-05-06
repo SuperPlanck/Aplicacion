@@ -1,10 +1,10 @@
 
-import streamlit as st
 
 message = """
         __Selecciona el tema__
         """
 
+import streamlit as st
 st.set_page_config(page_title="Óptica Cuántica", layout = "wide")
 
 import pkgutil
