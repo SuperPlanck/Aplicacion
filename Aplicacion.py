@@ -16,4 +16,4 @@ with st.sidebar:
         "Temas")
 
 st.subheader('Introducción')
-st.markdown('**¿Qué es la luz?** \n Una pregunta que los seres humanos han tratado de responder durante siglos.')
+st.markdown('**¿Qué es la luz?** Una pregunta que los seres humanos han tratado de responder durante siglos.') \n
