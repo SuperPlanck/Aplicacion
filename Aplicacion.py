@@ -15,5 +15,5 @@ with st.sidebar:
     add_header = st.header(
         "Temas")
 
-st.subheader('Introduccion')
-st.text('')
+st.subheader('Introducción')
+st.text('*¿Qué es la luz?*')
