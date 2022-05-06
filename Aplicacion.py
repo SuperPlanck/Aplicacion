@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 import numpy as np
 if t:
-    st.tittle(
+    st.markdown(
         """
         <style>
 @font-face {
