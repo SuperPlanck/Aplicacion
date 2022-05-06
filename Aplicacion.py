@@ -18,5 +18,15 @@ with st.sidebar:
 st.subheader('Introducción')
 st.markdown('**¿Qué es la luz?**')
 st.markdown('Una pregunta que los seres humanos han tratado de responder durante siglos.')
-st.set_page_config(layout="wide")
+
+
+col1, col2, col3 = st.beta_columns([1,6,1])
+
+with col1:
+st.write("")
+
+with col2:
 st.image("newton.png", width=600)
+
+with col3:
+st.write("")
