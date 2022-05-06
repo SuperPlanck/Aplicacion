@@ -18,5 +18,4 @@ with st.sidebar:
 st.subheader('Introducción')
 st.markdown('**¿Qué es la luz?**')
 st.markdown('Una pregunta que los seres humanos han tratado de responder durante siglos.')
-from imagenes import newton.png
-image = newton.png.open('sunrise.jpg')
+st.image("newton.png")
