@@ -11,6 +11,6 @@ st.markdown(Titulo_principal, unsafe_allow_html=True)
 
 with st.sidebar:
     add_header = st.header(
-        "Choose a shipping method"
+        "Temas"
         
     )
