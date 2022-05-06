@@ -16,6 +16,17 @@ st.caption('Esta aplicacón fue hecha con el propósito de introducir hacia los 
 with st.sidebar:
     add_header = st.header(
         "Temas")
+    title_to_app = {
+    t("Efecto Fotoeléctrico"): fotoelectrico.fotoelectrico_page,
+    t("Ancho de Banda"): Banda.Banda_page,
+    t("Ecuaciones de Maxwell"): Maxwell.Maxwell_page,
+    t("Energia transportada"): Energia.Energia_page,
+    t("Polarizacion de la luz"): Polarizacion.Polarizacion_page,
+    t("Interferencia"): Interferencia.Interferencia_page,
+    t("Experimento de la doble rendija"): Rendija.Rendija_page,
+    t("Difraccion"): Difraccion.Difraccion_page,
+    t("Reflexion"): Reflexion.Reflexion_page,
+    t("Refraccion"): Refraccion.Refraccion_page,    
 
 st.subheader('Introducción')
 st.markdown('**¿Qué es la luz?**')
