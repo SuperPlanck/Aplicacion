@@ -16,4 +16,4 @@ with st.sidebar:
         "Temas")
 
 st.subheader('Introducción')
-st.markdown('**¿Qué es la luz?** jhjh')
+st.markdown('**¿Qué es la luz?** Una pregunta que los seres humanos han tratado de entender durante siglos, momento en el que la electricidad y el magnetismo se combinan como una disciplina, electromagnetismo, descrita por las ecuaciones de Maxwell')
