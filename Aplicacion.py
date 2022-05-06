@@ -23,10 +23,10 @@ st.markdown('Una pregunta que los seres humanos han tratado de responder durante
 col1, col2, col3 = st.beta_columns([1,6,1])
 
 with col1:
-st.write("")
+st.write(" ")
 
 with col2:
 st.image("newton.png", width=600)
 
 with col3:
-st.write("")
+st.write(" ")
