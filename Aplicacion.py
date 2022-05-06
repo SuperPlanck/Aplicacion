@@ -2,6 +2,8 @@ import pandas as pd
 import streamlit as st
 import numpy as np
 
+st.set_page_config(page_title="Óptica Cuántica")
+
 Titulo_concurso = '<p style="text-align:center";"font-family:Courier; color:Blue; font-size: 20px;">Hackaton-Quantum Apps</p>'
 st.markdown(Titulo_concurso, unsafe_allow_html=True)
 
