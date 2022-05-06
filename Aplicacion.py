@@ -11,4 +11,4 @@ st.markdown(Titulo_principal, unsafe_allow_html=True)
 
 # "with" notation
 with st.sidebar:
-    st.[hola]
+    st.[element_name]
