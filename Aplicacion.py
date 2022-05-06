@@ -56,7 +56,7 @@ with col1:
     st.write("")
 
 with col2:
-    st.image("onda.png", width=400, caption='Onda electromangnética')
+    st.image("onda.png", width=450, caption='Onda electromangnética')
 
 with col3:
     st.write("")
