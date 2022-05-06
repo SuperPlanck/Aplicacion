@@ -2,10 +2,8 @@ import pandas as pd
 import streamlit as st
 import numpy as np
 
-description= "Introduccion"
-def run():
-    #aqui se escribe el modulo
-    Titulo_concurso = '<p style="text-align:center";"font-family:Courier; color:Blue; font-size: 20px;">Hackaton-Quantum Apps</p>'
+
+Titulo_concurso = '<p style="text-align:center";"font-family:Courier; color:Blue; font-size: 20px;">Hackaton-Quantum Apps</p>'
 st.markdown(Titulo_concurso, unsafe_allow_html=True)
 
 
@@ -62,5 +60,3 @@ with col2:
 with col3:
     st.write("")
 
-if __name__ == "__main__":
-   run()
