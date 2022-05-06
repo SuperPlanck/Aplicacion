@@ -29,3 +29,6 @@ with col2:
 
 with col3:
     st.write("")
+
+st.markdown('Newton, principal aportador de la teoria de la luz estipulaba que las partículas de luz provenian de una fuente luminosa que estimulaba la vista.')
+st.markdown('Esta idea le permitió justificar las bases nitrogenadas de la refracción y reflexión')
