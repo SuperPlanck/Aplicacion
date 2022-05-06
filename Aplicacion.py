@@ -45,4 +45,4 @@ with st.sidebar:
     page = st.selectbox('Select:',names, format_func=format_func) 
 
 # Run the chosen app
-modules[names.index(page)].run()
+modules[names.Aplicacion(page)].run()
