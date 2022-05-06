@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 import numpy as np
-streamlit_style = "dd""
+streamlit_style = 
 			<style>
 			@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
@@ -9,7 +9,7 @@ streamlit_style = "dd""
 			font-family: 'Roboto', sans-serif;
 			}
 			</style>
-			"""
+			
 st.markdown(streamlit_style, unsafe_allow_html=True)
 Titulo_concurso = '<p style="text-align:center";"font-family:Courier; color:Blue; font-size: 20px;">Hackaton-Quantum Apps</p>'
 st.markdown(Titulo_concurso, unsafe_allow_html=True)
