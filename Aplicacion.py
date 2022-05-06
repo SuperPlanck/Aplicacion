@@ -25,7 +25,7 @@ with col1:
     st.write("")
 
 with col2:
-    st.image("newton.png", width=600)
+    st.image("newton.png", width=600, caption='Newton y el estudio de la luz')
 
 with col3:
     st.write("")
