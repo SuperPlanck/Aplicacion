@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 import numpy as np
-import Banda, Difraccion, Energia, fotoelectrico, Interferencia, Maxwell, Polarizacion, Reflexion, Refraccion, Rendija
+
 st.set_page_config(page_title="Óptica Cuántica")
 
 Titulo_concurso = '<p style="text-align:center";"font-family:Courier; color:Blue; font-size: 20px;">Hackaton-Quantum Apps</p>'
@@ -12,26 +12,6 @@ Titulo_principal = '<p style="font-family:TimesNewRoman; color:DarkBlue; font-si
 st.markdown(Titulo_principal, unsafe_allow_html=True)
 
 st.caption('Esta aplicacón fue hecha con el propósito de introducir hacia los fenómenos cuánticos, especificamente dentro de la rama de la óptica cuántica, que ha sido de dificil comprensión para la cual nuestro objetivo es demostrar tales fenómenos con ejemplos visuales y prácticos de entender')
-
-title_to_app = {
-    
-    t("Efecto Fotoeléctrico"): fotoelectrico.fotoelectrico_page,
-    t("Ancho de Banda"): Banda.Banda_page,
-    t("Ecuaciones de Maxwell"): Maxwell.Maxwell_page,
-    t("Energia transportada"): Energia.Energia_page,
-    t("Polarizacion de la luz"): Polarizacion.Polarizacion_page,
-    t("Interferencia"): Interferencia.Interferencia_page,
-    t("Experimento de la doble rendija"): Rendija.Rendija_page,
-    t("Difraccion"): Difraccion.Difraccion_page,
-    t("Reflexion"): Reflexion.Reflexion_page,
-    t("Refraccion"): Refraccion.Refraccion_page, 
-    } 
-
-query_params = st.experimental_get_query_params()
-if "page" in query_params:
-    page_url = query_params["page"][0]
-    if page_url in title_to_app.keys():
-        st.session_state["page_selector"] = page_url
 
 with st.sidebar:
     add_header = st.header(
