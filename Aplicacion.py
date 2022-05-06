@@ -41,7 +41,9 @@ with col1:
 
 with col2:
     st.markdown("![Alt Text](http://blog.soton.ac.uk/soundwaves/files/2013/12/light1.gif)")
+    st.text("Hola")
 
 with col3:
     st.write("")
-#st.write("![Your Awsome GIF](https://media.giphy.com/media/3ohzdIuqJoo8QdKlnW/giphy.gif)")
+
+#st.write("![Your Awsome GIF](https://media.giphy.com/media/3ohzdIuqJoo8QdKlnW/giphy.gif)") C:
