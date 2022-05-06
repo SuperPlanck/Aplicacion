@@ -12,8 +12,8 @@ import pkgutil
 import importlib
 import stlib
 
-names = []
-modules = []
+names = [ ]
+modules = [intro,py, foto.py, ancho.py, max.py, energia.py, pola.py, inter.py, rendi.py, rendi.py, difra.py, reflex.py, refrac.py]
 descriptions = [] 
 package = stlib
 
