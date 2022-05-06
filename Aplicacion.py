@@ -6,7 +6,7 @@ original_title = '<p style="font-family:Courier; color:Blue; font-size: 20px;">O
 st.markdown(original_title, unsafe_allow_html=True)
 
 
-new_title = '<p style="font-family:TimesNewRoman; color:Green; font-size: 42px;">Óptica Cuántica</p>'
+new_title = '<p style="font-family:TimesNewRoman; color:Blue; font-size: 42px;">Óptica Cuántica</p>'
 st.markdown(new_title, unsafe_allow_html=True)
 
-st.title("Óptica Cuántica")
+
