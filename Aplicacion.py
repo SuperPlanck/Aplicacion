@@ -41,7 +41,7 @@ with col1:
 
 with col2:
     st.markdown("![Alt Text](http://blog.soton.ac.uk/soundwaves/files/2013/12/light1.gif)")
-    st.text("Hola")
+    st.text("Hola", allign:'center')
 
 with col3:
     st.write("")
