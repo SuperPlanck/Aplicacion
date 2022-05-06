@@ -9,4 +9,6 @@ st.markdown(Titulo_concurso, unsafe_allow_html=True)
 Titulo_principal = '<p style="font-family:TimesNewRoman; color:DarkBlue; font-size: 42px;">Óptica Cuántica</p>'
 st.markdown(Titulo_principal, unsafe_allow_html=True)
 
-
+# "with" notation
+with st.sidebar:
+    st.[hola]
