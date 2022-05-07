@@ -15,7 +15,7 @@ st.markdown(Titulo_principal, unsafe_allow_html=True)
 
 st.caption('Esta aplicacón fue hecha con el propósito de introducir hacia los fenómenos cuánticos, especificamente dentro de la rama de la óptica cuántica, que ha sido de dificil comprensión para la cual nuestro objetivo es demostrar tales fenómenos con ejemplos visuales y prácticos de entender')
 
-page_names = ['Introducción', 'Efecto Fotoeléctrico']
+page_names = ['Introducción', 'Efecto Fotoeléctrico', 'Ancho de Banda', 'Ecuaciones de Maxwell', 'Energía transportada por ondas', 'Polarización','Interferencia','Experimento de la doble rendija','Difracción','Relfexión','Refracción']
 
 Temas = st.sidebar.radio("Temas",page_names)      
 
@@ -103,12 +103,29 @@ if Temas == 'Introducción':
 if Temas == 'Efecto Fotoeléctrico':
     st.write("Holi")
 
+if Temas == 'Ancho de Banda':
+    st.write("matenme")
 
+if Temas == 'Ecuaciones de Maxwell':
+    st.write(":c")
 
+if Temas == 'Energía transportada por ondas':
+    st.write("ec")
 
+if Temas == 'Polarización':
+    st.write("pq")
 
+if Temas == 'Interferencia':
+    st.write("alguien")
 
+if Temas == 'Experimento de la doble rendija':
+    st.write("Mateme")
 
+if Temas == 'Difracción':
+    st.write("Porfavor")
 
+if Temas == 'Relfexión':
+    st.write(":,,")
 
-
+if Temas == 'Refracción':
+    st.write("refraccion")
