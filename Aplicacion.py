@@ -92,6 +92,7 @@ if Temas == 'Introduccion':
     st.markdown("Planck descubrió que la radiación electromagnética emitida por estos cuerpos no podia ser explicada por la física clasica; que postulaba que la energía podía ser emitida y absorbida por la materia en cualquier cantidad")
     st.image("planck.png",width=700)
     st.markdown("Al ser absorbida totalmente se espera que el cuerpo negro emita hasta ondas ultravioleta y de rayos x, pero se sabe que eso no sucede.")
+    st.image("https://slideplayer.es/slide/5497387/17/images/12/LEY+DE+RAYLEIGH-JEANS+Cat%C3%A1strofe+ultravioleta.jpg")
 
 if Temas == 'Foto':
     st.write("Holi")
