@@ -135,6 +135,7 @@ if Temas == 'Efecto Fotoeléctrico':
 
     with col3:
         st.write("")
+    
     st.subheader("Bandgap")
     st.write("El bandgap o tambien conocido como banda prohibida es la energía mínima necesaria para excitar un electrón desde su estado ligado a un estado libre que le permita participar en la conducción, dentro de una celda solar. Lo importante a resaltar aqui es el intervalo de banda es la cantidad mínima de energía necesaria para un electrón de liberarse de su estado de enlace. Cuando se cumple la energía de banda prohibida, el electrón es excitado a un estado libre, y por lo tanto puede participar en la conducción.La brecha de banda determina la cantidad de energía que se necesita del sol para la conducción, así como la cantidad de energía que se genera.Un agujero se crea donde el electrón estaba obligado anteriormente. Este agujero también participa en la conducción.")
     if st.button("Ver tabla"):
@@ -152,7 +153,7 @@ if Temas == 'Efecto Fotoeléctrico':
             st.write("")
         
         col1, col2, col3 = st.columns([1,6,1])
-    else:
+        else:
         st.write("")    
 
     with col1:
