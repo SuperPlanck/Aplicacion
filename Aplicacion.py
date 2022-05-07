@@ -3,7 +3,7 @@
 import pandas as pd
 import streamlit as st
 import numpy as np
-st.set_page_config(page_title="Óptica Cuántica")
+st.set_page_config(page_title="Óptica Cuántica", layout = "wide")
 
 
 Titulo_concurso = '<p style="text-align:center";"font-family:Courier; color:Blue; font-size: 20px;">Hackaton-Quantum Apps</p>'
@@ -104,7 +104,6 @@ if Temas == 'Introducción':
     st.markdown("Esta relación es descrita por la famosa **Ecuación de Planck**:")
     st.latex('E=hf')
     st.caption("*Las frecuencias más altas nos hacen más daño, porque significan más energía")
-
 
 if Temas == 'Efecto Fotoeléctrico':
     st.write("matenme")
