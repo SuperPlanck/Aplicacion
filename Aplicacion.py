@@ -17,10 +17,10 @@ st.caption('Esta aplicacón fue hecha con el propósito de introducir hacia los 
 
 page_names = ['Introduccion', 'Foto']
 
-pagina_seleccionada = st.sidebar.radio("Temas",page_names)      
+Temas = st.sidebar.radio("Temas",page_names)      
 
 
-if pagina_seleccionada == 'Introduccion':
+if Temas == 'Introduccion':
     
     st.subheader('Introducción')
     st.markdown('**¿Qué es la luz?**')
@@ -90,7 +90,7 @@ if pagina_seleccionada == 'Introduccion':
     st.markdown("No se entendía muy bien el concepto de luz hasta 1900 cuando el físico Max Planck empezó a estudiar cuerpos negros(Objetos teóricos que absorven la energía radiante totalmente), estos se calentaban y empezaban a brillar.")
     st.image("http://nuclear-power.com/wp-content/uploads/blackbody-radiation-chart-min.png",width=700)
 
-if Temas = 'Foto':
+if Temas == 'Foto':
     st.write("Holi")
 
 
