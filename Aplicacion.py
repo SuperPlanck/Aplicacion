@@ -144,7 +144,7 @@ if Temas == 'Interferencia':
     st.header('Interferencia')
     st.markdown('La luz, como las ondas mecánicas puede presentar interferencia; existen dos tipos: la **Interferencia Constructiva** y la **Interferencia Destructiva**')
     st.markdown('En la interferencia constructiva la amplitud de la onda resultante es mayor que una u otra onda individual, mientras que en la interferencia destructiva la amplitud resultante es menor que la onda mas grande.')
-    st.markdown()
+    
 
 if Temas == 'Experimento de la doble rendija':
     st.write("Mateme")
