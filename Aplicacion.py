@@ -129,7 +129,7 @@ if Temas == 'Polarización':
 if Temas == 'Interferencia':
     st.header('Interferencia')
     st.markdown('La luz, como las ondas mecánicas puede presentar interferencia; existen dos tipos: la **Interferencia Constructiva** y la **Interferencia Destructiva**')
-    st.markdown('')
+    st.subheader('Interferencia Constructiva')
 
 if Temas == 'Experimento de la doble rendija':
     st.write("Mateme")
