@@ -15,7 +15,7 @@ st.markdown(Titulo_principal, unsafe_allow_html=True)
 
 st.caption('Esta aplicacón fue hecha con el propósito de introducir hacia los fenómenos cuánticos, especificamente dentro de la rama de la óptica cuántica, que ha sido de dificil comprensión para la cual nuestro objetivo es demostrar tales fenómenos con ejemplos visuales y prácticos de entender')
 
-page_names = ['Introducción', 'Efecto Fotoeléctrico', 'Ecuaciones de Maxwell', 'Polarización','Interferencia','Experimento de la doble rendija','Difracción','Reflexión','Refracción']
+page_names = ['Introducción', 'Efecto Fotoeléctrico', 'Ecuaciones de Maxwell', 'Polarización','Experimento de la doble rendija','Difracción','Reflexión','Refracción']
 
 Temas = st.sidebar.radio("Escoge el tema",page_names)      
 
@@ -193,14 +193,12 @@ if Temas == 'Ecuaciones de Maxwell':
 if Temas == 'Polarización':
     st.header("Polarización")
 
-if Temas == 'Interferencia':
-    st.header('Interferencia')
+if Temas == 'Experimento de la doble rendija':
+    st.header('Experimento de la doble rendija')
     st.markdown('La luz, como las ondas mecánicas puede presentar interferencia; existen dos tipos: la **Interferencia Constructiva** y la **Interferencia Destructiva**')
     st.markdown('En la interferencia constructiva la amplitud de la onda resultante es mayor que una u otra onda individual, mientras que en la interferencia destructiva la amplitud resultante es menor que la onda mas grande.')
+    st.markdown('')
     
-
-if Temas == 'Experimento de la doble rendija':
-    st.write("Mateme")
 
 if Temas == 'Difracción':
     st.write("Porfavor")
