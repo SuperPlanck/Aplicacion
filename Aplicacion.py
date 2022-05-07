@@ -137,20 +137,23 @@ if Temas == 'Efecto Fotoeléctrico':
         st.write("")
     st.subheader("Bandgap")
     st.write("El bandgap o tambien conocido como banda prohibida es la energía mínima necesaria para excitar un electrón desde su estado ligado a un estado libre que le permita participar en la conducción, dentro de una celda solar. Lo importante a resaltar aqui es el intervalo de banda es la cantidad mínima de energía necesaria para un electrón de liberarse de su estado de enlace. Cuando se cumple la energía de banda prohibida, el electrón es excitado a un estado libre, y por lo tanto puede participar en la conducción.La brecha de banda determina la cantidad de energía que se necesita del sol para la conducción, así como la cantidad de energía que se genera.Un agujero se crea donde el electrón estaba obligado anteriormente. Este agujero también participa en la conducción.")
-    col1, col2, col3 = st.columns([1,6,1])
-    with col1:
-        st.write("")
+    if st.button("Ver tabla"):
+        col1, col2, col3 = st.columns([1,6,1])
+        with col1:
+            st.write("")
 
-    with col2:
-        st.write("")
-        st.write("Anchos de Banda",pd.DataFrame({
-        'Material':["PbSe","PbTe","PbS","InN","Ge","GaSb","Si","InP","GaAs", "CdTe", "AlSb","CdSe","AlAs","ZnTe","GaP","CdS","AlP","ZnSe","SiC","GaN","ZnS","Diamante","AlN"],
-        'Banda Prohibida en eV':[0.27,0.29,0.37,0.67,0.67,0.7,1.11,1.35,1.43,1.58,1.6,1.73,2.16,2.25,2.26,2.42,2.45,2.7,2.86,3.4,3.6,5.5,6.2],
-        }))
-    with col3:
-        st.write("")
-    
-    col1, col2, col3 = st.columns([1,6,1])
+        with col2:
+            st.write("")
+            st.write("Anchos de Banda",pd.DataFrame({
+            'Material':["PbSe","PbTe","PbS","InN","Ge","GaSb","Si","InP","GaAs", "CdTe", "AlSb","CdSe","AlAs","ZnTe","GaP","CdS","AlP","ZnSe","SiC","GaN","ZnS","Diamante","AlN"],
+            'Banda Prohibida en eV':[0.27,0.29,0.37,0.67,0.67,0.7,1.11,1.35,1.43,1.58,1.6,1.73,2.16,2.25,2.26,2.42,2.45,2.7,2.86,3.4,3.6,5.5,6.2],
+            }))
+        with col3:
+            st.write("")
+        
+        col1, col2, col3 = st.columns([1,6,1])
+    else:
+        st.write("")    
 
     with col1:
         st.write("")
