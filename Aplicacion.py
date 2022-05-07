@@ -69,3 +69,7 @@ longitud = st.slider('Longitud de onda visible en nm',380,750,380)
 if longitud < 450:
     st.markdown('Color Morado')
     st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Morado.png/250px-Morado.png")
+if longitud > 450 or < 495:
+    st.markdown('Color Azul')
+    st.image("https://upload.wikimedia.org/wikipedia/commons/5/52/Tipos_de_azules.png")
+     
