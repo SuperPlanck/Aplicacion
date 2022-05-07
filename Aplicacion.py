@@ -120,12 +120,11 @@ if Temas == 'Efecto Fotoeléctrico':
     with col3:
         st.write("")
        
-
 if Temas == 'Ecuaciones de Maxwell':
-    st.write(":c")
+    st.header("Ecuaciones de Maxwell")
 
 if Temas == 'Polarización':
-    st.write("pq")
+    st.header("Polarización")
 
 if Temas == 'Interferencia':
     st.header('Interferencia')
