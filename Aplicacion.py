@@ -93,6 +93,8 @@ if Temas == 'Introduccion':
     st.image("planck.png",width=700)
     st.markdown("Al ser absorbida totalmente se espera que el cuerpo negro emita hasta ondas ultravioleta y de rayos x, pero se sabe que eso no sucede.")
     st.image("https://slideplayer.es/slide/5497387/17/images/12/LEY+DE+RAYLEIGH-JEANS+Cat%C3%A1strofe+ultravioleta.jpg")
+    st.markdown("observo que la radiación se movía a través de enteros, paquetes conocidos como cuántos, multiplos enteros de el valor de la constante de Planck.")
+    st.latex(h=6.626^-34 J)
 
 if Temas == 'Foto':
     st.write("Holi")
