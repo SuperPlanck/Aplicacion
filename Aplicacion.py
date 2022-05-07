@@ -161,7 +161,7 @@ if Temas == 'Efecto Fotoeléctrico':
         st.write("")
 
     with col2:
-        st.image("Banda.png", width=700)
+        st.image("Banda.png", width=500)
     with col3:
         st.write("")
     col1, col2, col3 = st.columns([1,6,1])
