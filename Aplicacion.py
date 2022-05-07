@@ -67,7 +67,7 @@ if Introduccion:
         st.write("")
 
     st.markdown("Las ondas electromagnéticas pueden ser clasificadas por su longitud de onda o su frecuencia; esta clasificación se llama **Espectro electromagnético**")
-    longitud = st.slider('Longitud de onda visible en nm',380,750,380)
+longitud = st.slider('Longitud de onda visible en nm',380,750,380)
     if longitud < 450:
         st.markdown('Color Morado')
         st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Morado.png/250px-Morado.png",width=200)
