@@ -15,7 +15,7 @@ st.markdown(Titulo_principal, unsafe_allow_html=True)
 
 st.caption('Esta aplicacón fue hecha con el propósito de introducir hacia los fenómenos cuánticos, especificamente dentro de la rama de la óptica cuántica, que ha sido de dificil comprensión para la cual nuestro objetivo es demostrar tales fenómenos con ejemplos visuales y prácticos de entender')
 
-page_names = ['Introducción', 'Efecto Fotoeléctrico', 'Ecuaciones de Maxwell', 'Energía transportada por ondas', 'Polarización','Interferencia','Experimento de la doble rendija','Difracción','Reflexión','Refracción']
+page_names = ['Introducción', 'Efecto Fotoeléctrico', 'Ecuaciones de Maxwell', 'Polarización','Interferencia','Experimento de la doble rendija','Difracción','Reflexión','Refracción']
 
 Temas = st.sidebar.radio("Escoge el tema",page_names)      
 
@@ -121,28 +121,18 @@ if Temas == 'Efecto Fotoeléctrico':
 
     with col3:
         st.write("")
-    
-
-    
+       
 
 if Temas == 'Ecuaciones de Maxwell':
     st.write(":c")
-
-if Temas == 'Energía transportada por ondas':
-    st.subheader('Energía transportada por ondas')
-    st.markdown('La cantidad transferida de energía mediante ondas electromagnéticas se expresa por')
-    st.latex('T_{RE}')
-    st.markdown('La rapidez de transferencia de energía en una onda electromagnética se representa mediante **el vector de Poynting** que se define como:')
-    st.latex(r'''
-     \overrightarrow{S} = \frac{1}{\mu} \overrightarrow{E} \cdotp \overrightarrow{B}
-     ''')
-    st.markdown('Donde la S es la energía por unidad de área, la B es el campo magnético y la E es el campo eléctrico')
 
 if Temas == 'Polarización':
     st.write("pq")
 
 if Temas == 'Interferencia':
-    st.write("alguien")
+    st.subheader('Interferencia')
+    st.markdown('')
+    st.markdown('')
 
 if Temas == 'Experimento de la doble rendija':
     st.write("Mateme")
