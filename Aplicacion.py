@@ -17,7 +17,8 @@ st.caption('Esta aplicacón fue hecha con el propósito de introducir hacia los 
 
 with st.sidebar:
     add_header = st.header(
-        "Temas")  
+        "Temas")
+    add_button = st.button("Boton")  
 
 st.subheader('Introducción')
 st.markdown('**¿Qué es la luz?**')
@@ -87,7 +88,5 @@ if 620 < longitud < 750:
 
 st.markdown("No se entendía")
 
-def boton1():
-    st.write("Hola")
 
-boton1()
+
