@@ -98,7 +98,7 @@ if Temas == 'Introducción':
     st.markdown("Los fotones pueden ser emitidos o absorbidos por los átomos, estos son absorbidos por completo y al momento de perder energia, se emiten, estos cargan con la energía exacta que se perdió y es directamente proporcional a su frecuencia.")
     st.markdown("Esta relación es descrita por la famosa **Ecuación de Planck**:")
     st.latex('E=hf')
-    st.caption("Las frecuencias más altas nos hacen más daño, porque significan más energía")
+    st.caption("*Las frecuencias más altas nos hacen más daño, porque significan más energía")
 
 if Temas == 'Efecto Fotoeléctrico':
     st.write("Holi")
