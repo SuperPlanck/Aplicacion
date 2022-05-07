@@ -17,7 +17,9 @@ st.caption('Esta aplicacón fue hecha con el propósito de introducir hacia los 
 
 page_names = ['Introducción', 'Efecto Fotoeléctrico', 'Ancho de Banda', 'Ecuaciones de Maxwell', 'Energía transportada por ondas', 'Polarización','Interferencia','Experimento de la doble rendija','Difracción','Relfexión','Refracción']
 
-Temas = st.sidebar.radio("Temas",page_names)      
+Temas = st.sidebar.radio("Escoge el tema",page_names, st.tittle("Temas")
+
+)      
 
 
 if Temas == 'Introducción':
