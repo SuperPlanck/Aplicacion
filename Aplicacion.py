@@ -97,6 +97,7 @@ if Temas == 'Introducción':
     st.latex('h=6.626^{-34}J')
     st.markdown("Los fotones pueden ser emitidos o absorbidos por los átomos, estos son absorbidos por completo y al momento de perder energia, se emiten, estos cargan con la energía exacta que se perdió y es directamente proporcional a su frecuencia.")
     st.markdown("Esta relación es descrita por la famosa **Ecuación de Planck**:")
+    st.latex('E=h\upsilon')
 
 if Temas == 'Efecto Fotoeléctrico':
     st.write("Holi")
