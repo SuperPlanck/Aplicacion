@@ -29,7 +29,7 @@ if Introduccion:
     col1, col2, col3 = st.columns([1,6,1])
 
     with col1:
-    st.write("")
+        st.write("")
 
     with col2:
     st.image("newton.png", width=600, caption='Figura No.1 Newton y el estudio de la luz')
