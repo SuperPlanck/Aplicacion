@@ -92,7 +92,7 @@ if Temas == 'Introducción':
     st.markdown("No se entendía muy bien el concepto de luz hasta 1900, cuando el físico Max Planck empezó a estudiar cuerpos negros (Objetos teóricos que absorven la energía radiante totalmente), estos se calentaban y empezaban a brillar.")
     st.image("http://nuclear-power.com/wp-content/uploads/blackbody-radiation-chart-min.png",width=700)
     st.markdown("Planck descubrió que la radiación electromagnética emitida por estos cuerpos no podia ser explicada por la física clásica; que postulaba que la energía podía ser emitida y absorbida por la materia en cualquier cantidad")
-    st.markdown("![Alt Text](https://thumbs.gfycat.com/SerpentineDeterminedEwe-max-1mb.gif)")
+    st.markdown("![Alt Text](https://thumbs.gfycat.com/SerpentineDeterminedEwe-max-1mb.gif)", width=700)
     st.markdown("Al ser absorbida totalmente se esperaba que el cuerpo negro emitiera hasta ondas ultravioleta y de rayos x, pero se sabe que eso no sucede.")
     st.image("https://slideplayer.es/slide/5497387/17/images/12/LEY+DE+RAYLEIGH-JEANS+Cat%C3%A1strofe+ultravioleta.jpg")
     st.markdown("observó que la radiación se movía a por enteros, pequeños paquetes conocidos como cuántos, multiplos enteros de el valor de la constante de Planck.")
