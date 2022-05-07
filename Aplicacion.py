@@ -96,7 +96,7 @@ if Temas == 'Introducción':
     st.markdown("![Alt Text](https://steemitimages.com/DQmSXqSXPGdcPQiP3EfaZZQhipbZJg2RsAZmVTpUJvcGetZ/output_final_radiation.gif)")
     st.markdown("A esto se le llamó la catástrofe ultravioleta")
     st.image("https://slideplayer.es/slide/5497387/17/images/12/LEY+DE+RAYLEIGH-JEANS+Cat%C3%A1strofe+ultravioleta.jpg")
-    st.markdown("Planck observó que la materia absorbía o emitía la energia en multiplos enteros de el valor de la constante de Planck, pequeños paquetes conocidos como cuántos")
+    st.markdown("Planck observó que la materia absorbía o emitía la energia en multiplos enteros del valor de la constante de Planck, pequeños paquetes conocidos como cuántos")
     st.latex('h=6.626^{-34}J')
     st.markdown("Los fotones pueden ser emitidos o absorbidos por los átomos, se absorben por completo y al momento de que el átomo pierde energía se emite, estos cargan con la energía exacta que se perdió y es directamente proporcional a su frecuencia.")
     st.markdown("Esta relación es descrita por la famosa **Ecuación de Planck**:")
