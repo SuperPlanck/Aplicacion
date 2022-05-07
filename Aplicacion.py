@@ -106,7 +106,7 @@ if Temas == 'Introducción':
     st.caption("*Las frecuencias más altas nos hacen más daño, porque significan más energía")
 
 if Temas == 'Efecto Fotoeléctrico':
-    st.subheader('Efecto Fotoeléctrico')
+    st.subheader('')
     st.markdown('')
     st.markdown('')
     
@@ -115,7 +115,10 @@ if Temas == 'Ecuaciones de Maxwell':
     st.write(":c")
 
 if Temas == 'Energía transportada por ondas':
-    st.write("ec")
+    st.subheader('Energía transportada por ondas')
+    st.markdown('')
+    st.markdown('')
+    
 
 if Temas == 'Polarización':
     st.write("pq")
