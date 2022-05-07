@@ -105,7 +105,7 @@ if Temas == 'Introducción':
     st.caption("*Las frecuencias más altas nos hacen más daño, porque significan más energía")
 
 
-if Temas == 'Efecto Fotoeléctrico'':
+if Temas == 'Efecto Fotoeléctrico':
     st.write("matenme")
 
 if Temas == 'Ecuaciones de Maxwell':
