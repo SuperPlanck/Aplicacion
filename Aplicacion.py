@@ -198,8 +198,12 @@ if Temas == 'Experimento de la doble rendija':
     st.subheader('Interferencia')
     st.markdown('La luz, como las ondas mecánicas puede presentar interferencia; existen dos tipos: la **Interferencia Constructiva** y la **Interferencia Destructiva**')
     st.markdown('En la interferencia constructiva la amplitud de la onda resultante es mayor que una u otra onda individual, mientras que en la interferencia destructiva la amplitud resultante es menor que la onda mas grande.')
+    st.markdown("Toda interferencia asociada con ondas de luz aparece cuando se combinan los campos electromagnéticos que constituyen las ondas individuales")
     ("Interferencia Constructiva vs Destructiva","![Interferencia Constructiva](https://i.gifer.com/Q1JF.gif)")
-
+    st.markdown("Cuando dos ondas oscilan de manera opuesta se da una interferencia destructiva todal y cuando hay dos con la misma o casi la misma amplitud oscilando de manera simétrica hay interferencia contructiva total")
+    st.subheader("Experimento de la doble rendija de Young")
+    st.markdown("La interderencia en ondas de luz provinientes de dos fuentes fue demostrada por Thomas Young")
+    ("![Interferencia](https://i.gifer.com/2V7i.gif)")
     
     
 
