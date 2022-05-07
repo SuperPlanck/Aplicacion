@@ -21,7 +21,7 @@ def boton1():
 with st.sidebar:
     add_header = st.header(
         "Temas")
-    add_button = st.button("Boton", on_click=boton1())  
+    add_button = st.button("Boton", on_click="boton1()")  
 
 st.subheader('Introducción')
 st.markdown('**¿Qué es la luz?**')
