@@ -116,7 +116,7 @@ if Temas == 'Ecuaciones de Maxwell':
 
 if Temas == 'Energía transportada por ondas':
     st.subheader('Energía transportada por ondas')
-    st.markdown('La cantidad transferida de energía mediante ondas electromagnéticas se expresa por', st.latex('T_{RE}'))
+    st.markdown('La cantidad transferida de energía mediante ondas electromagnéticas se expresa por'), st.latex('T_{RE}')
     st.latex('T_{RE}')
     st.markdown('')
     
