@@ -71,7 +71,7 @@ if longitud < 450:
     st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Morado.png/250px-Morado.png",width=200)
 if 450 < longitud < 495:
     st.markdown('Color Azul')
-    st.image("https://upload.wikimedia.org/wikipedia/commons/5/52/Tipos_de_azules.png")
+    st.image("https://upload.wikimedia.org/wikipedia/commons/5/52/Tipos_de_azules.png",width=200)
 if 495 < longitud < 570:
     st.markdown('Color Verde')
     st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Tipos_de_verde.png/250px-Tipos_de_verde.png",width=200)
