@@ -153,7 +153,7 @@ if Temas == 'Efecto Fotoeléctrico':
             st.write("")
         
         col1, col2, col3 = st.columns([1,6,1])
-        else:
+    else:
         st.write("")    
 
     with col1:
