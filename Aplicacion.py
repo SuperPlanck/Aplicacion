@@ -93,7 +93,7 @@ if Temas == 'Introducción':
     st.image("http://nuclear-power.com/wp-content/uploads/blackbody-radiation-chart-min.png",width=700)
     st.markdown("Planck descubrió que la radiación electromagnética emitida por estos cuerpos no podia ser explicada por la física clásica; que postulaba que la energía podía ser emitida y absorbida por la materia en cualquier cantidad")
     st.image("planck.png",width=700)
-    st.markdown("Al ser absorbida totalmente se espera que el cuerpo negro emita hasta ondas ultravioleta y de rayos x, pero se sabe que eso no sucede.")
+    st.markdown("Al ser absorbida totalmente se esperaba que el cuerpo negro emitiera hasta ondas ultravioleta y de rayos x, pero se sabe que eso no sucede.")
     st.image("https://slideplayer.es/slide/5497387/17/images/12/LEY+DE+RAYLEIGH-JEANS+Cat%C3%A1strofe+ultravioleta.jpg")
     st.markdown("observó que la radiación se movía a por enteros, pequeños paquetes conocidos como cuántos, multiplos enteros de el valor de la constante de Planck.")
     st.latex('h=6.626^{-34}J')
