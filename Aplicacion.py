@@ -15,7 +15,7 @@ st.markdown(Titulo_principal, unsafe_allow_html=True)
 
 st.caption('Esta aplicacón fue hecha con el propósito de introducir hacia los fenómenos cuánticos, especificamente dentro de la rama de la óptica cuántica, que ha sido de dificil comprensión para la cual nuestro objetivo es demostrar tales fenómenos con ejemplos visuales y prácticos de entender')
 
-page_names = ['Introduccion', 'Foto']
+page_names = ['Introduccion', 'Efecto Fotoeléctrico']
 
 Temas = st.sidebar.radio("Temas",page_names)      
 
@@ -95,8 +95,9 @@ if Temas == 'Introduccion':
     st.image("https://slideplayer.es/slide/5497387/17/images/12/LEY+DE+RAYLEIGH-JEANS+Cat%C3%A1strofe+ultravioleta.jpg")
     st.markdown("observo que la radiación se movía a través de enteros, paquetes conocidos como cuántos, multiplos enteros de el valor de la constante de Planck.")
     st.latex('h=6.626^{-34}J')
+    st.markdown("")
 
-if Temas == 'Foto':
+if Temas == 'Efecto Fotoeléctrico':
     st.write("Holi")
 
 
