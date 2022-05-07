@@ -16,11 +16,11 @@ st.markdown(Titulo_principal, unsafe_allow_html=True)
 st.caption('Esta aplicacón fue hecha con el propósito de introducir hacia los fenómenos cuánticos, especificamente dentro de la rama de la óptica cuántica, que ha sido de dificil comprensión para la cual nuestro objetivo es demostrar tales fenómenos con ejemplos visuales y prácticos de entender')
 
 page_names = ['Introduccion', 'Foto']
-pagina = st.radio("Temas",page_names)
-      
+
+pagina_seleccionada = st.sidebar.radio("Temas",page_names)      
 
 
-if pagina = 'Introduccion':
+if pagina_seleccionada = 'Introduccion':
     
     st.subheader('Introducción')
     st.markdown('**¿Qué es la luz?**')
