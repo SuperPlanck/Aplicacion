@@ -120,9 +120,9 @@ if Temas == 'Energía transportada por ondas':
     st.latex('T_{RE}')
     st.markdown('La rapidez de transferencia de energía en una onda electromagnética se representa mediante un vector que se define como:')
     st.latex(r'''
-     a + ar + a r^2 + a r^3 + \cdots + a r^{n-1} =
+     S =
      \sum_{k=0}^{n-1} ar^k =
-     a \left(\frac{1-r^{n}}{1-r}\right)
+     a \left(\frac{1}{\mu}\right)
      ''')
     
 
