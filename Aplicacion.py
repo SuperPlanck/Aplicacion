@@ -15,12 +15,12 @@ st.markdown(Titulo_principal, unsafe_allow_html=True)
 
 st.caption('Esta aplicacón fue hecha con el propósito de introducir hacia los fenómenos cuánticos, especificamente dentro de la rama de la óptica cuántica, que ha sido de dificil comprensión para la cual nuestro objetivo es demostrar tales fenómenos con ejemplos visuales y prácticos de entender')
 
-page_names = ['Introduccion', 'Efecto Fotoeléctrico']
+page_names = ['Introducción', 'Efecto Fotoeléctrico']
 
 Temas = st.sidebar.radio("Temas",page_names)      
 
 
-if Temas == 'Introduccion':
+if Temas == 'Introducción':
     
     st.subheader('Introducción')
     st.markdown('**¿Qué es la luz?**')
@@ -95,7 +95,8 @@ if Temas == 'Introduccion':
     st.image("https://slideplayer.es/slide/5497387/17/images/12/LEY+DE+RAYLEIGH-JEANS+Cat%C3%A1strofe+ultravioleta.jpg")
     st.markdown("observo que la radiación se movía a través de enteros, paquetes conocidos como cuántos, multiplos enteros de el valor de la constante de Planck.")
     st.latex('h=6.626^{-34}J')
-    st.markdown("")
+    st.markdown("Los fotones pueden ser emitidos o absorbidos por los átomos, estos son absorbidos por completo y al momento de perder energia, se emiten, estos cargan con la energía exacta que se perdió y es directamente proporcional a su frecuencia.")
+    st.markdown("Esta relación es descrita por la famosa **ecuación de Planck**:")
 
 if Temas == 'Efecto Fotoeléctrico':
     st.write("Holi")
