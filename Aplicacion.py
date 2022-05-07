@@ -15,10 +15,13 @@ st.markdown(Titulo_principal, unsafe_allow_html=True)
 
 st.caption('Esta aplicacón fue hecha con el propósito de introducir hacia los fenómenos cuánticos, especificamente dentro de la rama de la óptica cuántica, que ha sido de dificil comprensión para la cual nuestro objetivo es demostrar tales fenómenos con ejemplos visuales y prácticos de entender')
 
+def boton1():
+    st.write("Hola")
+
 with st.sidebar:
     add_header = st.header(
         "Temas")
-    add_button = st.button("Boton")  
+    add_button = st.button("Boton", on_click=boton1())  
 
 st.subheader('Introducción')
 st.markdown('**¿Qué es la luz?**')
