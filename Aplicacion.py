@@ -64,7 +64,7 @@ with col3:
     st.write("")
 
 st.markdown("Las ondas electromagnéticas pueden ser clasificadas por lu longitud de onda o su frecuencia; esta clasificación se llama **Espectro electromagnético**")
-st.markdown("Cada onda electromagnética carga con ")
+
 longitud = st.slider('Longitud de onda visible en nm',380,750,380)
 if longitud < 450:
     st.markdown('Color Morado')
@@ -84,3 +84,10 @@ if 590 < longitud < 620:
 if 620 < longitud < 750:
     st.markdown('Color Rojo')
     st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Rojos.png/250px-Rojos.png",width=200)
+
+st.markdown("No se entendía")
+
+def boton1():
+    st.write("Hola")
+
+boton1()
