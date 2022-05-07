@@ -204,6 +204,16 @@ if Temas == 'Experimento de la doble rendija':
     st.subheader("Experimento de la doble rendija de Young")
     st.markdown("La interderencia en ondas de luz provinientes de dos fuentes fue demostrada por Thomas Young")
     ("![Interferencia](https://i.gifer.com/2V7i.gif)")
+    col1, col2, col3 = st.columns([1,6,1])
+
+    with col1:
+        st.write("")
+
+    with col2:
+        ("![Interferencia](https://i.gifer.com/2V7i.gif)")
+
+    with col3:
+        st.write("")
     
     
 
