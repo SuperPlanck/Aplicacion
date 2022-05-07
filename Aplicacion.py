@@ -93,7 +93,7 @@ if Introduccion:
     st.image("http://nuclear-power.com/wp-content/uploads/blackbody-radiation-chart-min.png",width=700)
 
 if Fotoelectrico:
-    st.writte("Holi")
+    st.write("Holi")
 
 
 
