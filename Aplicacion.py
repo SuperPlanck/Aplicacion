@@ -96,7 +96,7 @@ if Temas == 'Introducción':
     st.markdown("observo que la radiación se movía a través de enteros, paquetes conocidos como cuántos, multiplos enteros de el valor de la constante de Planck.")
     st.latex('h=6.626^{-34}J')
     st.markdown("Los fotones pueden ser emitidos o absorbidos por los átomos, estos son absorbidos por completo y al momento de perder energia, se emiten, estos cargan con la energía exacta que se perdió y es directamente proporcional a su frecuencia.")
-    st.markdown("Esta relación es descrita por la famosa **ecuación de Planck**:")
+    st.markdown("Esta relación es descrita por la famosa **Ecuación de Planck**:")
 
 if Temas == 'Efecto Fotoeléctrico':
     st.write("Holi")
