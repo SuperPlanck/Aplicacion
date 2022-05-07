@@ -122,8 +122,6 @@ if Temas == 'Energía transportada por ondas':
     st.latex(r'''
      \overrightarrow{S} = \frac{1}{\mu} \overrightarrow{E} \cdotp \overrightarrow{B}
      ''')
-    s = st.latex(r'''\overrightarrow{S}''')
-    s
 
 if Temas == 'Polarización':
     st.write("pq")
