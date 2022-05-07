@@ -22,7 +22,7 @@ Temas = st.sidebar.radio("Escoge el tema",page_names)
 
 if Temas == 'Introducción':
     
-    st.subheader('Introducción')
+    st.header('Introducción')
     st.markdown('**¿Qué es la luz?**')
     st.markdown('Una pregunta que los seres humanos han tratado de responder durante siglos.')
     
@@ -106,7 +106,7 @@ if Temas == 'Introducción':
     st.caption("*Las frecuencias más altas nos hacen más daño, porque significan más energía")
 
 if Temas == 'Efecto Fotoeléctrico':
-    st.subheader('')
+    st.header('')
     st.markdown('')
     st.markdown('')
     col1, col2, col3 = st.columns([1,6,1])
@@ -130,8 +130,8 @@ if Temas == 'Polarización':
     st.write("pq")
 
 if Temas == 'Interferencia':
-    st.subheader('Interferencia')
-    st.markdown('')
+    st.header('Interferencia')
+    st.markdown('La luz, como las ondas mecánicas puede presentar interferencia; existen dos tipos: la **Interferencia Constructiva** y la **Interferencia Destructiva**')
     st.markdown('')
 
 if Temas == 'Experimento de la doble rendija':
