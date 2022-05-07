@@ -91,7 +91,7 @@ if Temas == 'Introduccion':
     st.image("http://nuclear-power.com/wp-content/uploads/blackbody-radiation-chart-min.png",width=700)
     st.markdown("Planck descubrió que la radiación electromagnética emitida por estos cuerpos no podia ser explicada por la física clasica; que postulaba que la energía podía ser emitida y absorbida por la materia en cualquier cantidad")
     st.image("planck.png",width=700)
-    st.markdown("Al ser absorbida totalmente se espera que el cuerpo negro emita hasta ondas ultravioleta y de rayos x, pero se sabe que eso no sucede")
+    st.markdown("Al ser absorbida totalmente se espera que el cuerpo negro emita hasta ondas ultravioleta y de rayos x, pero se sabe que eso no sucede.")
 
 if Temas == 'Foto':
     st.write("Holi")
