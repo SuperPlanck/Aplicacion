@@ -98,13 +98,14 @@ if Temas == 'Introducción':
     st.image("https://slideplayer.es/slide/5497387/17/images/12/LEY+DE+RAYLEIGH-JEANS+Cat%C3%A1strofe+ultravioleta.jpg")
     st.markdown("Planck observó que la materia absorbía o emitía la energia en multiplos enteros del valor de la constante de Planck, pequeños paquetes conocidos como cuántos")
     st.latex('h=6.626^{-34}J')
-    st.markdown("Los fotones pueden ser emitidos o absorbidos por los átomos, se absorben por completo y al momento de que el átomo pierde energía se emite, estos cargan con la energía exacta que se perdió y es directamente proporcional a su frecuencia.")
+    st.markdown("Los fotones pueden ser emitidos o absorbidos por los átomos, se absorben por completo y al momento de que el átomo pierde energía se emite, cargando con la energía exacta que se perdió la cual es directamente proporcional a su frecuencia.")
+    st.markdown("Eso demostró que la luz se comporta también como una partícula")
     st.markdown("Esta relación es descrita por la famosa **Ecuación de Planck**:")
     st.latex('E=hf')
     st.caption("*Las frecuencias más altas nos hacen más daño, porque significan más energía")
 
 
-if Temas == 'Ancho de Banda':
+if Temas == 'Efecto Fotoeléctrico'':
     st.write("matenme")
 
 if Temas == 'Ecuaciones de Maxwell':
