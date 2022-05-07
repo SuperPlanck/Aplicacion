@@ -68,7 +68,7 @@ if Temas == 'Introducción':
 
     st.markdown("Las ondas electromagnéticas pueden ser clasificadas por su longitud de onda o su frecuencia; esta clasificación se llama **Espectro electromagnético**")
     st.image("https://cdn.kastatic.org/ka-perseus-images/01f944ab4471010d09766560f4d1c6da4846d97d.png", caption='Espectro electromagnético')
-    st.markdown("Dentro del espectro electromagnético se encuentra la luz visible, es una pequeña parte de todo el espectro, y los seres humanos solo pueden visualizar estos; arrastra el punto para ver que color se obtiene a diferentes longitudes")
+    st.markdown("Dentro del espectro electromagnético se encuentra la luz visible, esta es una pequeña parte de todo el espectro, y los seres humanos solo pueden visualizar estos; arrastra el punto para ver que color se obtiene a diferentes longitudes")
     longitud = st.slider('Longitud de onda visible en nm',380,750,380)
     if longitud < 450:
         st.markdown('Color Morado')
