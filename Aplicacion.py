@@ -18,7 +18,8 @@ st.caption('Esta aplicacón fue hecha con el propósito de introducir hacia los 
 with st.sidebar:
     add_header = st.header(
         "Temas")
-    Introduccion = st.button("Introducción")  
+    Introduccion = st.button("Introducción")
+    Fotoelectrico = st.button("Efecto Fotoelectrico")  
 
 st.write(Introduccion)
 if Introduccion:
@@ -90,7 +91,9 @@ if Introduccion:
 
     st.markdown("No se entendía muy bien el concepto de luz hasta 1900 cuando el físico Max Planck empezó a estudiar cuerpos negros(Objetos teóricos que absorven la energía radiante totalmente), estos se calentaban y empezaban a brillar.")
     st.image("http://nuclear-power.com/wp-content/uploads/blackbody-radiation-chart-min.png",width=700)
-if introduccion = False:
+
+if Fotoelectrico:
+    st.writte(hola)
 
 
 
