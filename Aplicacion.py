@@ -109,7 +109,6 @@ if Temas == 'Efecto Fotoeléctrico':
     st.subheader('')
     st.markdown('')
     st.markdown('')
-    st.write("Anchos de Banda")
     col1, col2, col3 = st.columns([1,6,1])
     with col1:
         st.write("")
