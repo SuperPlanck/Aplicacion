@@ -20,7 +20,7 @@ page_names = ['Introduccion', 'Foto']
 pagina_seleccionada = st.sidebar.radio("Temas",page_names)      
 
 
-if pagina_seleccionada = 'Introduccion':
+if pagina_seleccionada == 'Introduccion':
     
     st.subheader('Introducción')
     st.markdown('**¿Qué es la luz?**')
