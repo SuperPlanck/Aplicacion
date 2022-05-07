@@ -90,8 +90,8 @@ if Introduccion:
 
     st.markdown("No se entendía muy bien el concepto de luz hasta 1900 cuando el físico Max Planck empezó a estudiar cuerpos negros(Objetos teóricos que absorven la energía radiante totalmente), estos se calentaban y empezaban a brillar.")
     st.image("http://nuclear-power.com/wp-content/uploads/blackbody-radiation-chart-min.png",width=700)
-else:
-    
+    else:
+
 
 
 
