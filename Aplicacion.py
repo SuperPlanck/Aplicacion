@@ -198,7 +198,8 @@ if Temas == 'Experimento de la doble rendija':
     st.subheader('Interferencia')
     st.markdown('La luz, como las ondas mecánicas puede presentar interferencia; existen dos tipos: la **Interferencia Constructiva** y la **Interferencia Destructiva**')
     st.markdown('En la interferencia constructiva la amplitud de la onda resultante es mayor que una u otra onda individual, mientras que en la interferencia destructiva la amplitud resultante es menor que la onda mas grande.')
-    ("Interferencia Constructiva","![Interferencia Constructiva](https://i.giphy.com/media/x988dOESRoCeQ/giphy.gif)") 
+    ("Interferencia Constructiva","![Interferencia Constructiva](https://i.giphy.com/media/x988dOESRoCeQ/giphy.gif)")
+    ("Interferencia Destructiva","![Interferencia Destructiva](https://i.giphy.com/media/x988dOESRoCeQ/giphy.gif)") 
     
     
 
