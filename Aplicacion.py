@@ -122,8 +122,7 @@ if Temas == 'Energía transportada por ondas':
     st.latex(r'''
      \overrightarrow{S} = \frac{1}{\mu} \overrightarrow{E} \cdotp \overrightarrow{B}
      ''')
-    S = energia por unidad de area
-    S
+    st.markdown('Donde la S es la energía por unidad de área, la B es el campo magnético y la E es el campo eléctrico')
 
 if Temas == 'Polarización':
     st.write("pq")
