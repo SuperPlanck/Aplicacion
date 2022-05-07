@@ -112,7 +112,7 @@ if Temas == 'Efecto Fotoeléctrico':
     st.write("Anchos de Banda")
 
 st.write(pd.DataFrame({
-     'Material': ["PbSe", 2, 3, 4],
+     'Material': [Pbse, 2, 3, 4],
      'Banda Prohibida en eV': [10, 20, 30, 40],
  }))
     
