@@ -106,9 +106,7 @@ if Temas == 'Introducción':
     st.caption("*Las frecuencias más altas nos hacen más daño, porque significan más energía")
 
 if Temas == 'Efecto Fotoeléctrico':
-    st.header('')
-    st.markdown('')
-    st.markdown('')
+    st.header('Efecto Fotoeléctrico')
     col1, col2, col3 = st.columns([1,6,1])
     with col1:
         st.write("")
