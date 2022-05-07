@@ -203,7 +203,6 @@ if Temas == 'Experimento de la doble rendija':
     st.markdown("Cuando dos ondas oscilan de manera opuesta se da una interferencia destructiva todal y cuando hay dos con la misma o casi la misma amplitud oscilando de manera simétrica hay interferencia contructiva total")
     st.subheader("Experimento de la doble rendija de Young")
     st.markdown("La interderencia en ondas de luz provinientes de dos fuentes fue demostrada por Thomas Young")
-    ("![Interferencia](https://i.gifer.com/2V7i.gif)")
     col1, col2, col3 = st.columns([1,6,1])
 
     with col1:
