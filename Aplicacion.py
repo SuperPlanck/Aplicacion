@@ -112,7 +112,7 @@ if Temas == 'Efecto Fotoeléctrico':
     st.write("Anchos de Banda")
     col1, col2, col3 = st.columns([1,6,1])
     with col1:
-        st.write("")
+        st.write("Anchos de Banda")
 
     with col2:
         st.write(pd.DataFrame({
