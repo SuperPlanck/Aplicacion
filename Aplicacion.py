@@ -69,7 +69,19 @@ longitud = st.slider('Longitud de onda visible en nm',380,750,380)
 if longitud < 450:
     st.markdown('Color Morado')
     st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Morado.png/250px-Morado.png")
-if 450< longitud < 495:
+if 450 < longitud < 495:
     st.markdown('Color Azul')
     st.image("https://upload.wikimedia.org/wikipedia/commons/5/52/Tipos_de_azules.png")
-    
+if 495 < longitud < 570:
+    st.markdown('Color Verde')
+    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Tipos_de_verde.png/250px-Tipos_de_verde.png")
+if 570 < longitud < 590:
+    st.markdown('Color Amarillo')
+    st.image("https://upload.wikimedia.org/wikipedia/commons/5/5b/Amarillos.png")
+if 590 < longitud < 620:
+    st.markdown('Color Naranja')
+    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Shades_of_orange.png/250px-Shades_of_orange.png")
+if 620 < longitud < 750:
+    st.markdown('Color Rojo')
+    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Rojos.png/250px-Rojos.png")
+               
