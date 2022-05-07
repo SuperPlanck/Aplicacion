@@ -89,6 +89,8 @@ if Temas == 'Introduccion':
 
     st.markdown("No se entendía muy bien el concepto de luz hasta 1900 cuando el físico Max Planck empezó a estudiar cuerpos negros(Objetos teóricos que absorven la energía radiante totalmente), estos se calentaban y empezaban a brillar.")
     st.image("http://nuclear-power.com/wp-content/uploads/blackbody-radiation-chart-min.png",width=700)
+    st.markdown("Planck descubrió que la radiación electromagnética emitida por estos cuerpos no podia ser explicada por la física clasica; que postulaba que la energía podía ser emitida y absorbida por la materia en cualquier cantidad")
+    st.image("planck.png",width=700)
 
 if Temas == 'Foto':
     st.write("Holi")
