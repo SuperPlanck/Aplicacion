@@ -119,23 +119,23 @@ with col3:
     st.write("")
     
     if longitud < 450:
-    st.markdown('Color Morado')
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Morado.png/250px-Morado.png",width=200)
+        st.markdown('Color Morado')
+        st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Morado.png/250px-Morado.png",width=200)
     if 450 < longitud < 495:
-    st.markdown('Color Azul')
-    st.image("https://upload.wikimedia.org/wikipedia/commons/5/52/Tipos_de_azules.png",width=200)
+        st.markdown('Color Azul')
+        st.image("https://upload.wikimedia.org/wikipedia/commons/5/52/Tipos_de_azules.png",width=200)
     if 495 < longitud < 570:
-    st.markdown('Color Verde')
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Tipos_de_verde.png/250px-Tipos_de_verde.png",width=200)
+        st.markdown('Color Verde')
+        st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Tipos_de_verde.png/250px-Tipos_de_verde.png",width=200)
     if 570 < longitud < 590:
-    st.markdown('Color Amarillo')
-    st.image("https://upload.wikimedia.org/wikipedia/commons/5/5b/Amarillos.png",width=200)
+        st.markdown('Color Amarillo')
+        st.image("https://upload.wikimedia.org/wikipedia/commons/5/5b/Amarillos.png",width=200)
     if 590 < longitud < 620:
-    st.markdown('Color Naranja')
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Shades_of_orange.png/250px-Shades_of_orange.png",width=200)
+        st.markdown('Color Naranja')
+        st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Shades_of_orange.png/250px-Shades_of_orange.png",width=200)
     if 620 < longitud < 750:
-    st.markdown('Color Rojo')
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Rojos.png/250px-Rojos.png",width=200)
+        st.markdown('Color Rojo')
+        st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Rojos.png/250px-Rojos.png",width=200)
 
 st.markdown("Las ondas electromagnéticas pueden ser clasificadas por lu longitud de onda o su frecuencia; esta clasificación se llama **Espectro electromagnético**")
 
