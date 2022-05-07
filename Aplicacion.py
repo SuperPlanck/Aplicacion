@@ -32,10 +32,10 @@ if Introduccion:
         st.write("")
 
     with col2:
-    st.image("newton.png", width=600, caption='Figura No.1 Newton y el estudio de la luz')
+        st.image("newton.png", width=600, caption='Figura No.1 Newton y el estudio de la luz')
 
     with col3:
-    st.write("")
+        st.write("")
 
     st.markdown('Newton, principal aportador de la teoria de la luz estipulaba que las partículas de luz provenian de una fuente luminosa que estimulaba la vista.')
     st.markdown('Esta idea le permitió justificar las bases de la refracción y reflexión')
