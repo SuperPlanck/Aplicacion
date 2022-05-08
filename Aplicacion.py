@@ -190,7 +190,6 @@ if Temas == 'Polarización':
 
 if Temas == 'Experimento de la doble rendija':
     
-
 if Temas == 'Difracción':
     st.write("Porfavor")
 
