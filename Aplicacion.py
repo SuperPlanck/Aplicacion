@@ -14,7 +14,6 @@ Temas = st.sidebar.radio("Escoge el tema",page_names)
 
 
 if Temas == 'Introducción':
-    
     st.header('Introducción')
     st.subheader('**¿Qué es la luz?**')
     st.markdown("Una pregunta que los seres humanos han tratado de responder durante siglos.")
