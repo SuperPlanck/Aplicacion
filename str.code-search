@@ -1,0 +1,58 @@
+# Query: str
+# ContextLines: 1
+
+22 results - 2 files
+
+Aplicacion.py:
+    3  import pandas as pd
+    4: import streamlit as st
+    5  import numpy as np
+
+   11  
+   12: st.caption('Esta aplicacón fue hecha con el propósito de introducir hacia los fenómenos cuánticos, especificamente dentro de la rama de la óptica cuántica, que ha sido de dificil comprensión para la cual nuestro objetivo es demostrar tales fenómenos con ejemplos visuales y prácticos de entender')
+   13  
+
+   35      st.markdown('Esta idea le permitió justificar las bases de la refracción y reflexión')
+   36:     st.markdown('Durante su vida sostuvó que la luz podría seguir un movimiento ondulatorio lo cual fue demostrado por Thomas Young, que bajo condiciones de difracción los rayos de luz interfieren unos con otros al igual que con las ondas mecánicas')
+   37  
+
+   64      st.image("https://cdn.kastatic.org/ka-perseus-images/01f944ab4471010d09766560f4d1c6da4846d97d.png", caption='Espectro electromagnético')
+   65:     st.markdown("Dentro del espectro electromagnético se encuentra la luz visible, esta es una pequeña parte de todo el espectro que en seres humanos es la única visualizable; arrastra el punto para ver que color se obtiene a diferentes longitudes")
+   66      longitud = st.slider('Longitud de onda visible en nm',380,750,380)
+
+   90      st.markdown("![Alt Text](https://steemitimages.com/DQmSXqSXPGdcPQiP3EfaZZQhipbZJg2RsAZmVTpUJvcGetZ/output_final_radiation.gif)")
+   91:     st.markdown("A esto se le llamó la catástrofe ultravioleta")
+   92:     st.image("https://slideplayer.es/slide/5497387/17/images/12/LEY+DE+RAYLEIGH-JEANS+Cat%C3%A1strofe+ultravioleta.jpg")
+   93      st.markdown("Planck observó que la materia absorbía o emitía la energia en multiplos enteros del valor de la constante de Planck, pequeños paquetes conocidos como cuántos, por lo que Einstein propuso su teoría del efecto fotoeléctrico")
+
+   96      st.markdown("Los fotones pueden ser emitidos o absorbidos por los átomos, se absorben por completo y al momento de que el átomo pierde energía se emiten, cargando con la energía exacta que se perdió la cual es directamente proporcional a su frecuencia.")
+   97:     st.markdown("Eso demostró que la luz se comporta también como una partícula")
+   98      st.markdown("Esta relación es descrita por la famosa **Ecuación de Planck**:")
+
+  117      st.subheader("Modelo propuesto por Einstein")
+  118:     st.write("Con base en el modelo ondulatorio de la luz, los físicos predijeron que el aumento de la amplitud de la luz incrementaría la energía cinética de los fotoelectrones emitidos, mientras que el aumento de la frecuencia incrementaría la corriente medida. Contrario a las predicciones, los experimentos mostraron que el aumento en la frecuencia incrementaba la energía cinética de los fotoelectrones, mientras que el aumento en la amplitud de la luz incrementaba la corriente.")
+  119      st.write("Con base en estos descubrimientos, Einstein propuso que la luz se comportaba como una corriente de partículas llamadas fotones con una energía de:")
+
+  166      with col2:
+  167:         st.markdown("![Alt Text](https://upload.wikimedia.org/wikipedia/commons/1/1f/Bulkbandstructure.gif)")
+  168  
+
+  201      st.subheader('Interferencia')
+  202:     st.markdown('La luz, como las ondas mecánicas puede presentar interferencia; existen dos tipos: la **Interferencia Constructiva** y la **Interferencia Destructiva**')
+  203:     st.markdown('En la interferencia constructiva la amplitud de la onda resultante es mayor que una u otra onda individual, mientras que en la interferencia destructiva la amplitud resultante es menor que la onda mas grande.')
+  204      st.markdown("Toda interferencia asociada con ondas de luz aparece cuando se combinan los campos electromagnéticos que constituyen las ondas individuales")
+  205:     ("Interferencia Constructiva vs Destructiva","![Interferencia](https://i.gifer.com/Q1JF.gif)")
+  206:     st.markdown("Cuando dos ondas oscilan de manera opuesta se da una interferencia destructiva todal y cuando hay dos con la misma o casi la misma amplitud oscilando de manera simétrica hay interferencia contructiva total")
+  207      st.subheader("Experimento de la doble rendija de Young")
+  208:     st.markdown("La interferencia en ondas de luz provinientes de dos fuentes fue demostrada por Thomas Young")
+  209      col1, col2, col3 = st.columns([1,6,1])
+
+  218          st.write("")
+  219:     st.markdown("Las líneas más largas al inicio son picos de ondas, que al chocar con las rendijas forman otras otras; cuando las ondas formadas salen de las rendijas crean interferencias las cuales aumentan y disminuyen la luz en ciertos patrones, donde se entrelazan las lineas es donde se forma la interferencia contructiva por la superposicion de las ondas, en cambio cuando los valles chocan con los picos se presenta una interferencia destructiva, disminuyendo la intensidad de la luz en esa zona")
+  220      st.markdown=("En la siguiente imagen se observa un patron de interferencia formado por un láser")
+
+LICENSE:
+  6  of this software and associated documentation files (the "Software"), to deal
+  7: in the Software without restriction, including without limitation the rights
+  8: to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  9  copies of the Software, and to permit persons to whom the Software is
