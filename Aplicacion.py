@@ -38,7 +38,7 @@ if Temas == 'Introducción':
         st.write("")
 
     with col2:
-        st.markdown('![Alt Text](http://blog.soton.ac.uk/soundwaves/files/2013/12/light1.gif)')
+        ("![Alt Text](http://blog.soton.ac.uk/soundwaves/files/2013/12/light1.gif)")
 
     with col3:
         st.write("")
