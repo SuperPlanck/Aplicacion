@@ -3,11 +3,8 @@
 import pandas as pd
 import streamlit as st
 import numpy as np
+
 st.set_page_config(page_title="Óptica Cuántica",page_icon="🎇")
-st.markdown("<h1 style='text-align: center; color:blue;'>Hackaton-Quantum Apps</h1>")
-st.markdown("<h1 style='text-align: center; color:DarkBlue;'>Optica Cuantica</h1>")
-
-
 
 st.caption('Esta aplicacón fue hecha con el propósito de introducir hacia los fenómenos cuánticos, especificamente dentro de la rama de la óptica cuántica, que ha sido de dificil comprensión para la cual nuestro objetivo es demostrar tales fenómenos con ejemplos visuales y prácticos de entender')
 
