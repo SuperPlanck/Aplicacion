@@ -16,7 +16,7 @@ Temas = st.sidebar.radio("Escoge el tema",page_names)
 if Temas == 'Introducción':
     st.header('Introducción')
     st.subheader('**¿Qué es la luz?**')
-    st.write('Una pregunta que los seres humanos han tratado de responder durante siglos.')
+    st.write("Una pregunta que los seres humanos han tratado de responder durante siglos.")
     col1, col2, col3 = st.columns([1,6,1])
 
     with col1:
