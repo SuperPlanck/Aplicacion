@@ -4,8 +4,8 @@ import pandas as pd
 import streamlit as st
 import numpy as np
 st.set_page_config(page_title="Óptica Cuántica",page_icon="🎇")
-st.markdown("<h1 style='text-align: center; color:blue;'>Hackaton-Quantum Apps</h1>", unsafe_allow_html=True)
-st.markdown("<h1 style='text-align: center; color:DarkBlue;'>Optica Cuantica</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color:blue;'>Hackaton-Quantum Apps</h1>")
+st.markdown("<h1 style='text-align: center; color:DarkBlue;'>Optica Cuantica</h1>")
 
 
 
